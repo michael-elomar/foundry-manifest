@@ -2,7 +2,7 @@
 <manifest>
 	<remote fetch="ssh://git@github.com" name="github"/>
 	<default remote="github" sync-j="5"/>
-	<project name="michael-elomar/foundry" path="build/foundry" revision="master"/>
+	<project name="michael-elomar/foundry" path="build/foundry" revision="master">
 			<linkfile dest="forge" src="forge"/>
 	</project>
 	<project name="michael-elomar/foundry-rpi5" path="products/rpi5" revision="master"/>
